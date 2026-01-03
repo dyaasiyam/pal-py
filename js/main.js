@@ -10,7 +10,7 @@ window.addEventListener("load", function () {
     setTimeout(() => {
       loading.style.display = "none";
     }, 800);
-  }, 3000);
+  });
 });
 /*header scrol */
 let lastScroll = 0;
@@ -59,3 +59,4 @@ window.addEventListener("scroll", () => {
     toggle.classList.toggle("active");
     nav.classList.toggle("show");
   });
+
